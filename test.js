@@ -44,3 +44,9 @@ exports['random tests'] = function(test) {
     test.done();
 };
 
+exports['size'] = function(test) {
+    var code = codify.toCode(0,5);
+    test.equal(code, '00000');
+    test.equal(codify.toInt(code), 0);
+    test.done();
+};

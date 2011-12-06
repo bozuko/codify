@@ -9,13 +9,16 @@ function character(num) {
 /*
  * Generate an alphanumeric (base-36) code from an integer
  */
-codify.toCode = function(val) {
+codify.toCode = function(val, minSize) {
+    minSize = minSize || 1;
     var code = '';
-    if (val === 0) return '0';
     while (val >= 1) {
         var remainder = val % 36;
         val = Math.floor(val / 36);
         code = character(remainder)+code;
+    }
+    while (code.length < minSize) {
+        code = '0'+code;
     }
     return code;
 };

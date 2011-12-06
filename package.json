@@ -2,7 +2,7 @@
   "author": "Andrew J. Stone <andrew.j.stone.1@bozuko.com>",
   "name": "codify",
   "description": "Turn integers into base36 codes",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/bozuko/codify.git"
