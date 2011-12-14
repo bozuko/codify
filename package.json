@@ -1,5 +1,5 @@
 {
-  "author": "Andrew J. Stone <andrew.j.stone.1@bozuko.com>",
+  "author": "Andrew J. Stone <andrew.stone@bozuko.com>",
   "name": "codify",
   "description": "Turn integers into base36 codes",
   "version": "0.3.0",
