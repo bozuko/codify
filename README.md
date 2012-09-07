@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/bozuko/codify.png)](http://travis-ci.org/bozuko/codify)
 Codify lets you transform integers to base36 strings and vice versa. All strings use uppercase letters.
 
 ## Example
